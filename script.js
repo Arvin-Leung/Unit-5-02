@@ -27,3 +27,10 @@ function appear() {
 function background() {
   document.getElementById('background').style.backgroundColor = 'aqua'
 }
+
+// this function changes the font, size, and color
+function font() {
+  document.getElementById('paragraph').style.fontFamily = 'Arial'
+  document.getElementById('paragraph').style.fontSize = '110%'
+  document.getElementById('paragraph').style.color = 'red'
+}
